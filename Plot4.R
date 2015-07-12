@@ -17,7 +17,7 @@ data.df$datetime <- strptime(paste(data.df$Date,data.df$Time), format = "%Y-%m-%
 data.df$Day <- weekdays(data.df$datetime)
 
 
-png(file = "plot4.png", width = 800, height = 600)
+png(file = "plot4.png", width = 480, height = 480)
         #create four plotting areas on the canvas
         par(mfrow = c(2,2))
 

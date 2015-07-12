@@ -28,7 +28,7 @@ legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=c(1
 ##dev.off()
 
 ## ... so solved the problem with and finally send to a .png file
-png(file = "plot3.png", width = 800, height = 600)
+png(file = "plot3.png", width = 480, height = 480)
         ## set up canvas for plotting
         par(mfrow = c(1,1))
 
